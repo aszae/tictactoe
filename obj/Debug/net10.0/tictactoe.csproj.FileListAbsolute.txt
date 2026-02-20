@@ -12,3 +12,4 @@
 /home/evila/Documents/vs_code_projects/tictacto/tictactoe/obj/Debug/net10.0/tictactoe.pdb
 /home/evila/Documents/vs_code_projects/tictacto/tictactoe/obj/Debug/net10.0/tictactoe.genruntimeconfig.cache
 /home/evila/Documents/vs_code_projects/tictacto/tictactoe/obj/Debug/net10.0/ref/tictactoe.dll
+/home/evila/Documents/vs_code_projects/tictacto/tictactoe/obj/Debug/net10.0/tictactoe.sourcelink.json
