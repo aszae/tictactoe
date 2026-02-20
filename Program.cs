@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            string[,] field = new string[5,5];
+            string[,] field = new string[3,3];
 
             for (int i = 0; i < field.GetLength(0); i++)
             {
@@ -19,18 +19,21 @@
                 for (int j = 0; j < field.GetLength(1); j++)
                 {
 
-                    if (j %2 != 0)
-                    {
-                        field[i,j] = " | ";
-                    }
-                    if (i%2!=0)
-                    {
-                       field[i,j] = "——"; 
-                    }
                     Console.Write(field[i,j]);
+
+                    if (j != field.GetLength(1)-1)
+                    {
+                        Console.Write(" | ");
+                    }
+                    
+                }
+                Console.WriteLine("");
+                for (int z = 0; z < field.GetLength(1)+6; z++)
+                {
+                    Console.Write("—");
                 }
                 Console.WriteLine();
-
+                
 
             }
         }
